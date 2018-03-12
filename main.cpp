@@ -49,17 +49,17 @@ int main()
 	const float	PI		= 3.14159;
 	const int	ALIGN		= 36;
 
-	// variable declarations go here
-	float height		= 0;
-	float base		= 0;
-	float areaOfTriangle	= 0;
+	// Input and calculation variables
+	float height		= 0;	// IN & CALC  - used for triangle area
+	float base		= 0;	// IN & CALC  - used for triangle area
+	float areaOfTriangle	= 0;	// CALC & OUT - Stores area of the triangle
 
-	float width		= 0;
-	float heightRect	= 0;
-	float areaOfRectangle	= 0;
+	float width		= 0;	// IN & CALC  - used for rectangle area
+	float heightRect	= 0;	// IN & CALC  - used for rectangle area
+	float areaOfRectangle	= 0;	// CALC & OUT - Stores area of the rectangle
 
-	float radius		= 0;
-	float areaOfCircle	= 0;
+	float radius		= 0;	// IN & CALC  - used for circle area
+	float areaOfCircle	= 0;	// CALC & OUT - Stores area of the circle
 
 
 	// OUTPUT - Class Heading
