@@ -1,6 +1,6 @@
 /*******************************************************************************
 * AUTHORS		: Zac Campos & Sebastian Hooshmand
-* STUDENT ID	: 1058476
+* STUDENT ID		: 1058476
 * LAB #13		: Output - Geometry
 * CLASS			: CS1A
 * SECTION		: MW 8am
@@ -18,8 +18,8 @@ using namespace std;
 * and circle with dimensions inputted by the user.
 * -----------------------------------------------------------------------------
 * INPUT:
-* 		<Height and base of the triangle, width and height of the rectangle,
-* 		and the radius of the circle.>
+* 	<Height and base of the triangle, width and height of the rectangle,
+* 	and the radius of the circle.>
 *
 * OUTPUT:
 * 	<This program will output the area of each of the objects>
@@ -39,25 +39,25 @@ int main()
 	* LAB_NUM		: Lab Number (specific to this lab)
 	* LAB_NAME		: Title of the Lab
 	**************************************************************************/
-	const char		PROGRAMMER[]	= "Zac Campos";
-	const char		CLASS[]			= "CS1A";
-	const char		SECTION[]		= "MW: 8am";
-	const int		LAB_NUM			= 5;
-	const char		LAB_NAME[]		= "Eclipse Tutorial";
-	const float		PI				= 3.14159;
-	const int		ALIGN			= 36;
+	const char	PROGRAMMER[]	= "Zac Campos";
+	const char	CLASS[]		= "CS1A";
+	const char	SECTION[]	= "MW: 8am";
+	const int	LAB_NUM		= 5;
+	const char	LAB_NAME[]	= "Eclipse Tutorial";
+	const float	PI		= 3.14159;
+	const int	ALIGN		= 36;
 
 	// variable declarations go here
-	float height				= 0;
-	float base					= 0;
-	float areaOfTriangle		= 0;
+	float height		= 0;
+	float base		= 0;
+	float areaOfTriangle	= 0;
 
-	float width					= 0;
-	float heightRect			= 0;
-	float areaOfRectangle		= 0;
+	float width		= 0;
+	float heightRect	= 0;
+	float areaOfRectangle	= 0;
 
-	float radius				= 0;
-	float areaOfCircle			= 0;
+	float radius		= 0;
+	float areaOfCircle	= 0;
 
 
 	// OUTPUT - Class Heading
@@ -71,7 +71,7 @@ int main()
 	cout << right;
 
 	/***************************************************************************
-	* INPUT - describe input here
+	* INPUT - Takes in the triangle height and base
 	**************************************************************************/
 	cout << left << setw(ALIGN) << "Enter the height of the triangle:";
 	cin  >> height;
@@ -82,7 +82,7 @@ int main()
 	cout << endl;
 
 	/***************************************************************************
-	* INPUT -
+	* INPUT - Takes in the width and height of the rectangle
 	**************************************************************************/
 	cout << setw(ALIGN)<< "Enter the width of the rectangle: ";
 	cin  >> width;
@@ -93,7 +93,7 @@ int main()
 	cout << endl;
 
 	/***************************************************************************
-	* INPUT -
+	* INPUT - Takes in the radius of the circle
 	**************************************************************************/
 	cout << setw(ALIGN) << "Enter the radius of the circle: ";
 	cin  >> radius;
@@ -102,22 +102,22 @@ int main()
 
 
 	/***************************************************************************
-	* PROCESSING - describe processing here
+	* PROCESSING - Calculates the area of the triangle
 	**************************************************************************/
 	areaOfTriangle	= (height * base) / 2;
 
 	/***************************************************************************
-	* PROCESSING - describe processing here
+	* PROCESSING - Calculates the area of the rectangle
 	**************************************************************************/
 	areaOfRectangle	= width * heightRect;
 
 	/***************************************************************************
-	* PROCESSING - describe processing here
+	* PROCESSING - Calculates the area of the circle
 	**************************************************************************/
 	areaOfCircle	= PI * radius * radius;
 
 	/***************************************************************************
-	* OUTPUT - describe input here
+	* OUTPUT - Outputs the areas for the three shapes with different precision
 	**************************************************************************/
 	cout << setw(18) << right << "Triangle Area" << setw(19) << "Rectangle Area" << setw(16) << "Circle Area" << endl;
 	
@@ -135,10 +135,7 @@ int main()
 	cout << fixed << setprecision(5);
 	cout << setw(18) << areaOfTriangle << setw(19) << areaOfRectangle << setw(16) << areaOfCircle << endl;
 
-
-	int a = 0;
-
-	cin >> a;
-
+	cout << right;
+	
 	return 0;
 }
