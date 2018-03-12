@@ -33,17 +33,19 @@ int main()
 	* -------------------------------------------------------------------------
 	* OUTPUT - USED FOR CLASS HEADING and PI
 	* -------------------------------------------------------------------------
-	* PROGRAMMER	: Programmer's Name
+	* PROGRAMMER		: Programmer's Name
 	* CLASS			: Student's Course
 	* SECTION		: Class Days and Times
 	* LAB_NUM		: Lab Number (specific to this lab)
 	* LAB_NAME		: Title of the Lab
+	* PI			: The numerical value of PI
+	* ALIGN			: Aligns the prompts
 	**************************************************************************/
 	const char	PROGRAMMER[]	= "Zac Campos";
 	const char	CLASS[]		= "CS1A";
 	const char	SECTION[]	= "MW: 8am";
-	const int	LAB_NUM		= 5;
-	const char	LAB_NAME[]	= "Eclipse Tutorial";
+	const int	LAB_NUM		= 13;
+	const char	LAB_NAME[]	= "Output - Geometry";
 	const float	PI		= 3.14159;
 	const int	ALIGN		= 36;
 
