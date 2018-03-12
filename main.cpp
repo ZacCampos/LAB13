@@ -52,14 +52,14 @@ int main()
 	// Input and calculation variables
 	float height		= 0;	// IN & CALC  - used for triangle area
 	float base		= 0;	// IN & CALC  - used for triangle area
-	float areaOfTriangle	= 0;	// CALC & OUT - Stores area of the triangle
+	float areaOfTriangle	= 0;	// CALC & OUT - stores area of the triangle
 
 	float width		= 0;	// IN & CALC  - used for rectangle area
 	float heightRect	= 0;	// IN & CALC  - used for rectangle area
-	float areaOfRectangle	= 0;	// CALC & OUT - Stores area of the rectangle
+	float areaOfRectangle	= 0;	// CALC & OUT - stores area of the rectangle
 
 	float radius		= 0;	// IN & CALC  - used for circle area
-	float areaOfCircle	= 0;	// CALC & OUT - Stores area of the circle
+	float areaOfCircle	= 0;	// CALC & OUT - stores area of the circle
 
 
 	// OUTPUT - Class Heading
